@@ -1,0 +1,102 @@
+body{
+
+    background: black;
+background-image: url("images/shaye2.jpg");
+
+}
+
+h2{
+
+    color: aqua
+}
+
+
+p{
+
+
+    font-family: 'Times New Roman', Times, serif;
+color: lightpink;
+
+font-size: 250%;
+
+
+}
+
+div{
+
+font-family: cursive;
+color: aquamarine;
+font-size: 500%;
+
+
+
+
+}
+
+h1{
+
+    color: lightgoldenrodyellow;
+    font-size: 500%;
+}
+
+
+#xD{
+
+    color: red;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-radius: 200px;
+background-color:white;
+
+}
+
+p3{
+    color: red;
+    font-size: 333%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#SHAYE{
+    margin-top: 20px;
+    border-radius: 20px;
+    display: inline;
+    font-size: 300%;
+    transition: 1000ms;
+
+}
+
+#SHAYE:hover{
+    background-color: red;
+
+}
+
+a{
+    transition: 1000ms;
+
+}
+
+a:hover{
+    font-size: 100%;
+    color: black
+
+
+}
+
+img{
+
+    width: 2%;
+
+}
+
+img:hover{
+    width: 25%;
+    transition: 5000ms;
+
+
+}
+
+#shaye-img{
+    border-width: 10px;
+    border-style: solid;
+    border-color: limegreen;
+    
+}
