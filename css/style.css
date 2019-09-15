@@ -1,7 +1,6 @@
 body{
 
-    background: black;
-background-image: url("images/shaye2.jpg");
+
 
 }
 
@@ -66,6 +65,8 @@ p3{
 
 #SHAYE:hover{
     background-color: red;
+transition: 1000ms;
+
 
 }
 
@@ -81,22 +82,42 @@ a:hover{
 
 }
 
-img{
 
-    width: 2%;
-
-}
-
-img:hover{
-    width: 25%;
-    transition: 5000ms;
-
-
-}
 
 #shaye-img{
     border-width: 10px;
     border-style: solid;
-    border-color: limegreen;
+    border-color: red;
+    width: 2%;
+   
     
+}
+
+#shaye-img:hover{
+    opacity: 1;
+}
+
+#shaye-img2{
+  
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+width: 2%;
+
+
+}
+
+#shaye-img2:hover{
+
+    opacity: 1;
+
+
+}
+
+#shaye{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    width: 2%
+
 }
