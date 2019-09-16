@@ -17,9 +17,16 @@ p{
 
 
     font-family: 'Times New Roman', Times, serif;
-color: lightpink;
+color: red;
 
-font-size: 150%;
+font-size: 50%;
+
+}
+
+
+#made{
+
+font-size: 100%
 
 
 }
@@ -28,7 +35,7 @@ font-size: 150%;
 
 h1{
 
-    color: lightgoldenrodyellow;
+    color: red;
     font-size: 200%;
 }
 
@@ -44,52 +51,67 @@ background-color:white;
 
 
 
-
-
-
-
-
-
-
-
-#SHAYE{
-    margin-top: 20px;
-    border-radius: 20px;
-    display: inline;
-    font-size: 300%;
-    transition: 1000ms;
-    text-decoration: none;
-
+p3{
+    color: red;
+    font-size: 298%;
 }
 
-#SHAYE:hover{
-    background-color: red;
-transition: 1000ms;
-text-decoration: none;
 
 
 
-}
+
+
+
 
 #SHAYE a{
    color: red;
     transition: 1000ms;
+    border-radius: 200px;
+    display: inline;
+    transition: 1000ms;
+    text-decoration: overline;
+font-size: 150%;
 
 }
 
 #SHAYE:hover a{
     
-    color: white;
-    text-decoration: none;
+    color: black;
+    cursor: help;
+    text-decoration: underline;
+background-color: red;
 
 
 }
 
 
 
+#netochka a{
+
+
+    color: rgb(51, 255, 0);
+    transition: 1000ms;
+    border-radius: 200px;
+    display: inline;
+    transition: 1000ms;
+    text-decoration: overline;
+font-size: 150%;
+
+}
+
+#netochka:hover a{
+
+
+    color: black;
+    cursor: cell;
+    text-decoration: underline;
+background-color: rgb(51, 255, 0);
 
 
 
+
+
+}
 
 
 
@@ -276,9 +298,10 @@ width: 2%;
 #max:hover a{
 
     color: black;
-    background-color: lightpink;
+    background-color: rgb(51, 255, 0);
     transition: 1000ms;
 text-decoration: none;
+cursor: none;
 }
 
 
