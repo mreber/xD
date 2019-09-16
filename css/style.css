@@ -1,10 +1,13 @@
 body{
 
+background-color: black;
+
 
 
 }
 
 h2{
+
 
     color: aqua
 }
@@ -16,26 +19,17 @@ p{
     font-family: 'Times New Roman', Times, serif;
 color: lightpink;
 
-font-size: 250%;
+font-size: 150%;
 
 
 }
 
-div{
 
-font-family: cursive;
-color: aquamarine;
-font-size: 500%;
-
-
-
-
-}
 
 h1{
 
     color: lightgoldenrodyellow;
-    font-size: 500%;
+    font-size: 200%;
 }
 
 
@@ -48,11 +42,15 @@ background-color:white;
 
 }
 
-p3{
-    color: red;
-    font-size: 333%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
+
+
+
+
+
+
+
+
+
 
 #SHAYE{
     margin-top: 20px;
@@ -60,27 +58,43 @@ p3{
     display: inline;
     font-size: 300%;
     transition: 1000ms;
+    text-decoration: none;
 
 }
 
 #SHAYE:hover{
     background-color: red;
 transition: 1000ms;
+text-decoration: none;
+
 
 
 }
 
-a{
+#SHAYE a{
+   color: red;
     transition: 1000ms;
 
 }
 
-a:hover{
-    font-size: 100%;
-    color: black
+#SHAYE:hover a{
+    
+    color: white;
+    text-decoration: none;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -88,36 +102,183 @@ a:hover{
     border-width: 10px;
     border-style: solid;
     border-color: red;
-    width: 2%;
+    transition: 5000ms;
    
     
 }
 
 #shaye-img:hover{
     opacity: 1;
+    transition: 5000ms;
+    cursor: help;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #shaye-img2{
   
     border-width: 10px;
     border-style: solid;
     border-color: red;
-width: 2%;
-
+    transition: 5000ms;
 
 }
 
 #shaye-img2:hover{
 
     opacity: 1;
-
+    transition: 5000ms;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #shaye{
     border-width: 10px;
     border-style: solid;
     border-color: red;
-    width: 2%
+    transition: 5000ms;
+}
+
+#shaye:hover{
+    transition: 5000ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newspaper{
+width: 2%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    transition: 5000ms;
 
 }
+
+#newspaper:hover{
+   width: 150%;
+    transition: 5000ms;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#littleshaye{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    transition: 5000ms;
+}
+
+#littleshaye:hover{
+    opacity: 1;
+    transition: 5000ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ridepony{
+
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    transition: 5000ms;
+
+}
+
+#ridepony:hover{
+    opacity: 1;
+    transition: 5000ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#max a{
+
+    margin-top: 20px;
+    border-radius: 200%;
+    display: inline;
+    font-size: 300%;
+    transition: 1000ms;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+}
+
+#max:hover a{
+
+    color: black;
+    background-color: lightpink;
+    transition: 1000ms;
+text-decoration: none;
+}
+
+
