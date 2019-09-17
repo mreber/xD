@@ -509,7 +509,7 @@ font-size: 100%;
 
 #shayelink{
 color: red;
-    font-size: 20%;
+    font-size: 50%;
     background: red;
     transition: 1000ms;
     display: inline;
@@ -530,7 +530,7 @@ text-decoration: underline;
 
 #shayehome{
     color: red;
-    font-size: 20%;
+    font-size: 50%;
     background: red;
     transition: 1000ms;
     display: inline;
