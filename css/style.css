@@ -1,7 +1,7 @@
 body{
 
 background-color: black;
-
+color: rgb(0, 255, 0);
 
 
 }
@@ -301,7 +301,167 @@ width: 2%;
     background-color: rgb(51, 255, 0);
     transition: 1000ms;
 text-decoration: none;
+cursor: pointer;
+}
+
+
+
+
+
+#Netochka-name{
+
+font-size: 200%;
+
+color: rgb(51, 255, 0);
+text-decoration: overline;
+
+
+}
+
+
+
+
+
+#netochka-info1{
+font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(51, 255, 0);
+    text-decoration: line-through;
+
+}
+
+#netochka-info1:hover{
+
+    color: rgb(51, 255, 0);
+    transition: 1000ms;
+text-decoration: none;
+cursor: none;
+
+}
+
+
+#netochka-info2{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(51, 255, 0);
+    text-decoration: line-through;
+
+}
+
+
+
+#netochka-info2:hover{
+
+    color: rgb(51, 255, 0);
+    transition: 1000ms;
+text-decoration: none;
+cursor: none;
+}
+
+#netochka-info3{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(51, 255, 0);
+    text-decoration: line-through;
+}
+
+
+#netochka-info3:hover{
+
+    color: rgb(51, 255, 0);
+    transition: 1000ms;
+text-decoration: none;
 cursor: none;
 }
 
 
+
+
+
+#net-0{
+
+    position: absolute;
+    top: 8px;
+    left: 310px;
+
+    border: 1px solid rgb(51, 255, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+
+}
+
+#net-0:hover{
+
+    width: 750px;
+cursor: cell;
+}
+
+#net-3{
+
+    position: absolute;
+    top: 8px;
+    left: 450px;
+
+    border: 1px solid rgb(51, 255, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+
+}
+
+#net-3:hover{
+
+    width: 750px;
+    cursor: cell;
+}
+
+#net-1{
+
+    position: absolute;
+    top: 8px;
+    left: 590px;
+
+    border: 1px solid rgb(51, 255, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+
+}
+
+#net-1:hover{
+
+    width: 750px;
+    cursor: cell;
+}
+
+#net-2{
+
+    position: absolute;
+    top: 8px;
+    left: 730px;
+
+    border: 1px solid rgb(51, 255, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+
+}
+
+#net-2:hover{
+
+    width: 750px;
+cursor: cell;
+
+}
+
+#index3{
+
+cursor: crosshair;
+
+}
+
+#shayetitle{
+
+    text-decoration: overline;
+}
