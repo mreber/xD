@@ -219,6 +219,8 @@ width: 20%;
     position: absolute;
     top: 1%;
     left: 1%;
+    cursor: help;
+
     
 }
 
@@ -545,5 +547,27 @@ background-color: red;
 display: inline;
 transition: 1000ms;
 border-radius: 100px;
+text-decoration: underline;
+}
+
+#netochkalink{
+
+    color: rgb(51, 255, 0);
+    font-size: 100%;
+    background: rgb(51, 255, 0);
+    transition: 1000ms;
+    display: inline;
+    border-radius: 0px;
+}
+
+#netochkalink:hover{
+
+    font-size: 100%;
+    color: black;
+    cursor: pointer;
+background-color: rgb(51, 255, 0);
+display: inline;
+transition: 1000ms;
+border-radius: 0px;
 text-decoration: underline;
 }
