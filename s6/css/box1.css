@@ -1,0 +1,143 @@
+body{
+    background: black;
+}
+
+
+
+.wrapper{
+
+    position: relative;
+    
+    width: 800px;
+    height: 951.49px;
+    background-color: rgb(204, 203, 203);
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin: 8.5px auto;
+    border-radius: 5%;
+    border-style: dotted;
+    border-color: rgb(248, 104, 200);
+    
+    
+    }
+    
+    
+    .box{
+    
+    
+        top: 10px;
+        left: 0px;
+        bottom: 10px;
+    width: 100px;
+    height: 175px;
+        background-color: #a5ff70);
+        position: relative;
+        float:left;
+    margin-left: 12.5px;
+    margin-top: 10px;
+    background-size: 95%;
+    background-position-x: 02.4px;
+    background-position-y: 5px;
+    transition: 5000ms;
+    background-repeat: no-repeat;
+    
+    }
+    
+
+    
+    .lower{
+  
+        margin-top: -720.75px;
+        margin-right: 100px;
+        background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+   z-index: -1;
+
+    }
+
+    .gaytext{
+background: transparent;
+position: absolute;
+top: 261.5px;
+left: 309px;
+color: rgb(248, 104, 200);
+z-index: -1;
+font-size: 101.85%;
+    }
+    
+    .rowbox{
+    
+        top: -275px;
+        left: -30px;
+    width: 50px;
+    height: 50px;
+        background-color: rgb(82, 47, 128);
+        position: relative;
+        float:left;
+    margin-left: 30px;
+    
+    }
+    
+    .red{
+        background-image: url(https://web.archive.org/web/20070226063448/http://www.geocities.com/taka_tokyo_jp/pic/virtuagay.gif);
+
+    }
+
+    .box:hover{
+
+        
+        transition: 1000ms;
+        background-color: transparent;
+        transform: rotate(360deg);
+       border-style: dotted;
+       border-color: rgb(248, 104, 200);
+       
+
+
+    }
+
+    .background{
+       
+        top: 200px;
+        left: 298.3px;
+        bottom: 100px;
+    width: 30.333px;
+    height: 30.333px;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        float:left;
+    margin-left: 2px;
+    margin-top: 2px;
+    background-size: 95%;
+    background-position-x: 02.4px;
+    background-position-y: 5px;
+    transition: 5000ms;
+    background-repeat: no-repeat;
+    background-image: url(https://web.archive.org/web/20091027022158/http://geocities.com/fantasysplace2/pinkheart.gif);
+    
+   
+    }
+
+    .wrapper2{
+        position: absolute;
+    top: 80px;
+    width: 1500px;
+    height: 150px;
+    background-color: #000000;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin: 8.5px auto;
+    border-radius: 5%;
+    z-index: -1;
+
+    }
+
+    .background:hover{
+
+        transition: 5000ms;
+        background-image: url(https://web.archive.org/web/20050503023212/http://geocities.com:80/mmm_waba/SPLAT.GIF)
+    }

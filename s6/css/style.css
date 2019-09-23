@@ -1,0 +1,17 @@
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+}
+
+a{
+
+    display: block;
+    background-color: pink;
+}
+
+.inline{
+
+    font-family: 'Times New Roman', Times, serif;
+
+}

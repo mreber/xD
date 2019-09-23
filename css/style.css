@@ -571,3 +571,22 @@ transition: 1000ms;
 border-radius: 0px;
 text-decoration: underline;
 }
+
+#virtualgay a{
+    color: rgb(255, 0, 221);
+    transition: 1000ms;
+    border-radius: 200px;
+    display: inline;
+    transition: 1000ms;
+    text-decoration: overline;
+font-size: 200%;
+}
+
+#virtualgay:hover a{
+
+    color: black;
+    cursor: help;
+    text-decoration: underline;
+background-color: rgb(255, 0, 221);
+
+}
