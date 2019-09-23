@@ -88,13 +88,11 @@ font-size: 101.85%;
     .box:hover{
 
         
-        transition: 1000ms;
+        transition: 100ms;
         background-color: transparent;
         transform: rotate(360deg);
-       border-style: dotted;
-       border-color: rgb(248, 104, 200);
+        
        
-
 
     }
 
