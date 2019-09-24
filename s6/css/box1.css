@@ -154,8 +154,6 @@ background-repeat: no-repeat;
 position: absolute;
 top: 10px;
     left: 1235px;
-    opacity: 1;
-    transition: 100ms;
     cursor: pointer;
     background-size: contain;
 }
@@ -163,7 +161,7 @@ top: 10px;
 #home{
     
   color: rgb(255, 70, 178);
-  
+  background: transparent;
   text-decoration: overline;
   display: ruby;
   position: absolute;
