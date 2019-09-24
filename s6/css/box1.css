@@ -1,5 +1,6 @@
 body{
     background: black;
+    
 }
 
 
@@ -91,8 +92,7 @@ font-size: 101.85%;
         transition: 100ms;
         background-color: transparent;
         transform: rotate(360deg);
-        
-       
+        cursor: url("../../images/pinkheart.gif"), auto;
 
     }
 
@@ -137,5 +137,11 @@ font-size: 101.85%;
     .background:hover{
 
         transition: 5000ms;
-        background-image: url(https://web.archive.org/web/20050503023212/http://geocities.com:80/mmm_waba/SPLAT.GIF)
+        background-image: url(https://web.archive.org/web/20050503023212/http://geocities.com:80/mmm_waba/SPLAT.GIF);
+   
+   
+   
+   
     }
+
+
