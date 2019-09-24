@@ -147,7 +147,7 @@ font-size: 101.85%;
 
 #h1{
 
-    background-image: url(/images/pinkheart.gif);
+    background-image: url(https://web.archive.org/web/20091027022158/http://geocities.com/fantasysplace2/pinkheart.gif);
     width: 35px;
     height: 25px;
 background-repeat: no-repeat;
@@ -167,4 +167,11 @@ top: 10px;
   position: absolute;
   top: 10px;
   left: 1265px;
+}
+
+#h5{
+
+
+
+    
 }

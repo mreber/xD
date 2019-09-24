@@ -590,3 +590,21 @@ font-size: 200%;
 background-color: rgb(255, 0, 221);
 
 }
+
+#digiceramics a{
+    color: rgb(255, 128, 70);
+    transition: 1000ms;
+    border-radius: 200px;
+    display: inline;
+    transition: 1000ms;
+    text-decoration: overline;
+font-size: 225%;
+}
+
+#digiceramics:hover a{
+
+    color: black;
+    cursor: help;
+    text-decoration: underline;
+background-color: rgb(255, 128, 70);
+}
