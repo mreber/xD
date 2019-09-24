@@ -157,6 +157,7 @@ top: 10px;
     opacity: 1;
     transition: 100ms;
     cursor: pointer;
+    background-size: contain;
 }
 
 #home{
