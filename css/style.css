@@ -608,3 +608,22 @@ font-size: 225%;
     text-decoration: underline;
 background-color: rgb(255, 128, 70);
 }
+
+#youtube a{
+
+    color: rgb(251, 255, 0);
+    transition: 1000ms;
+    border-radius: 200px;
+    display: inline;
+    transition: 1000ms;
+    text-decoration: overline;
+font-size: 275%;
+}
+
+#youtube:hover a{
+
+    color: black;
+    cursor: help;
+    text-decoration: underline;
+background-color: rgb(251, 255, 0);
+}
