@@ -1,0 +1,101 @@
+* {
+
+padding: 0;
+margin: 0;
+
+}
+
+.container1{
+
+width: 100%;
+    margin: 0 auto;
+        font-family: sans-serif;
+        
+
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+.box1{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+    left: 725px;
+    /* top: 200px;
+    left: 300px; */
+    /* transition-property: height;
+    transition-duration: 3200ms; */
+border-radius: 100%;
+border-style: solid;
+border-color: black;
+transition: width 2000ms ease-in;
+transition: height 5000ms linear;
+transition: background-color 4000ms ease-in-out;
+transition: 1000ms;
+
+}
+
+.box1:hover{
+
+position: relative;
+left: 640px;
+height: 400px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+border: 100px solid rgb(21, 255, 0);
+
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 5px;
+    left: 800px;
+border: 2px solid black;
+    
+}
+
+/* #trigger1{
+  
+  position: relative;
+  left: 200px;
+  top: 200px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+    transition: width 2000ms ease-in;
+transition: height 5000ms linear;
+transition: background-color 4000ms ease-in-out;
+transition: 1000ms;
+}
+
+#trigger1:hover{
+
+height: 400px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+border: 100px solid rgb(255, 0, 0); */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.red{
+    background-color: rgb(255, 255, 255);
+}
