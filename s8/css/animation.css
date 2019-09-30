@@ -10,62 +10,82 @@
 	top: 10vh;
 	width: 80vw;
 	height: 20vh;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 	border-radius: 0;
 	align-items: center;
 	display: flex;
 }
 
 .box{
-	position: relative;
-	top: 0px;
-	left: 0px;
-	width: 100px;
-	height: 100px;
-	background-color: transparent;
-animation-name: swag-rounded;
-animation-duration: 100ms;
-animation-timing-function: ease-in;
-animation-direction: alternate;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-background-position: contain;
-background-color: transparent;
-align-items: center;
-display: flex;
+
 }
 
 @keyframes swag-rounded{
 
-0%{top: 0px; left: 10px;}
-25%{top: 0px; left: 5px;}
-50%{top: 10px; left: 10px;}
-75%{top: 5px; left: 0px;}
-90%{top: 0px; left: 5px;}
-100%{top: 0px; left: 10px;}
+	0%{
+		width: 0px; 
+		height: 100px; 
+		position: absolute;
+		top: 0%; 
+		left: 0%; 
+		
+	border-radius: 0%;
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(0, 0, 0);
+	border: 10px solid rgb(0, 0, 0);}
+
+
+	50%{
+		
+		width: 50px; 
+		height: 100px; 
+		top: -20%; 
+		left: -5.5%; 
+		position: absolute;
+	transform: rotate3d(10, 100, 30, 900deg);
+	border-radius: 100%;
+	background-color: rgb(0, 0, 0);
+	border-color: rgb(0, 0, 0);
+	border: 50px solid rgb(0, 255, 21);}
+
+
+	100%{  
+	width: 0px; 
+	height: 100px; 
+	position: absolute;
+	top: 0%; left: 0%;
+
+	border-radius: 0%;
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(0, 0, 0);
+	border: 10px solid rgb(0, 0, 0);}
 
 }
 
 .chic{
 
-top: 100%;
-left: 100%;
-bottom: 100%;
-width: 50px;
-height: 50px;
-position: relative;
+
 background-size: 100%;
 background-repeat: no-repeat;
 animation-name: swag-rounded;
-animation-duration: 8ms;
-animation-timing-function: ease-in;
-animation-direction: alternate;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
+animation: swag-rounded 2.5s infinite;
+animation-timing-function: ease-in-out;
 background-position: contain;
 align-items: center;
 display: flex;
-background-color: red;
+/* top: 200px;
+left: 300px; */
+/* transition-property: height;
+transition-duration: 3200ms; */
+border-radius: 100%;
+border-style: solid;
+border-color: black;
+transition: width 10000ms ease-in-out;
+transition: height 10000ms ease-in-out;
+transition: background-color 10000ms ease-in-out;
+transform: transform 10000ms ease-in-out;
+animation-delay: 0s;
+
 
 
 }
