@@ -310,7 +310,7 @@ width: 20%;
     background-color: rgb(51, 255, 0);
     transition: 1000ms;
 text-decoration: none;
-cursor: pointer;
+cursor: none;
 }
 
 
