@@ -30,7 +30,7 @@ function generateURL() {
 let container = document.querySelector('#container');
 let boxes;
 
-for(let i = 0; i < 20; i++) {
+for(let i = 0; i < 84; i++) {
 
     let newDiv = document.createElement('div');
     container.appendChild(newDiv);
