@@ -6,11 +6,13 @@
 
 #container {
     position: relative;
-    top: 5vh;
+    top: 3.5vh;
     margin: 0 auto;
     width: 90vw;
     height: 93.5vh;
     background-color: rgb(77, 77, 77);
+    box-shadow: 0px 0px 40px rgb(0, 255, 55);
+    border-radius: 20%;
 }
 
 .box {
