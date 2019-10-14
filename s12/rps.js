@@ -55,7 +55,7 @@ if(userChoice == 'scissors'){
 } else {
     return 'You WIN! XD';
 }
-}
+} 
 
 let enterButton = document.querySelector('.enter')
 enterButton.addEventListener('click',playGame);
