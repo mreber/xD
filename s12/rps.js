@@ -52,10 +52,11 @@ if(userChoice == 'paper'){
 if(userChoice == 'scissors'){
     if(computerChoice == 'rock')
     return 'You LOSE :-(';
-} else {
-    return 'You WIN! XD';
+} else { 
+    return 'not an option'
 }
-} 
+
+}
 
 let enterButton = document.querySelector('.enter')
 enterButton.addEventListener('click',playGame);

@@ -71,7 +71,6 @@ p3{
     transition: 1000ms;
     text-decoration: overline;
 font-size: 128%;
-
 }
 
 #SHAYE:hover a{
@@ -79,10 +78,18 @@ font-size: 128%;
     color: black;
     cursor: help;
     text-decoration: underline;
-background-color: red;
-
+    background-color: red;
 
 }
+
+/* .test:hover{
+    
+    color: black;
+    cursor: help;
+    text-decoration: underline;
+    background-color: red;
+
+} */
 
 
 
@@ -617,7 +624,7 @@ background-color: rgb(255, 128, 70);
     display: inline;
     transition: 1000ms;
     text-decoration: overline;
-font-size: 275%;
+    font-size: 275%;
 }
 
 #youtube:hover a{
@@ -646,5 +653,36 @@ color: black;
 cursor: progress;
 text-decoration: underline;
 background-color: rgb(255, 255, 255);
+}
+
+
+#page1 {
+    
+    display: none;
+    width: 1000px;
+    height: 2000px;
+
 
 }
+
+/* #SHAYE a{
+    color: red;
+     transition: 1000ms;
+     border-radius: 200px;
+     display: inline;
+     transition: 1000ms;
+     text-decoration: overline;
+ font-size: 128%;
+ }
+ 
+ #SHAYE:hover a{
+     
+     color: black;
+     cursor: help;
+     text-decoration: underline;
+     background-color: red; 
+     
+ }*/
+ 
+ 
+

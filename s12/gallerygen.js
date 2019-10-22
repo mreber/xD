@@ -42,7 +42,7 @@ for(let i = 0; i < boxes.length; i++)
 {
     let currBox = boxes[i];
     currBox.style.backgroundColor = 'red';
-    currBox.innerHTML = generateURL();
+    //currBox.innerHTML = generateURL();
     // if you want a random imgur gallery, uncomment the line below
     currBox.style.backgroundImage = `url('${generateURL()}')`;
 }
