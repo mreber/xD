@@ -72,8 +72,25 @@ console.log(determineWinner(userChoice, computerChoice))
 
 let output=document.querySelector('#output')
 output.innerHTML=''
-output.innerHTML+='<p> human threw' + userChoice +'</p>'
-output.innerHTML+='<p> computer threw' + computerChoice +'</p>'
+output.innerHTML+='<p> human threw ' + userChoice +'</p>'
+output.innerHTML+='<p> computer threw ' + computerChoice +'</p>'
 output.innerHTML+='<p id="winner">' + determineWinner(userChoice,computerChoice) + '</p>'
 
+}
+
+function myCoolFunction(num){
+    var BaseTraitArray = ["Acid","Lighting","Fire"];
+    
+    var SecondaryTraitArray = ["Sword of", "Spear of","Gun of"];
+    
+    var Descriptor = ["Badass","Legendary", "Unstopable"];
+    var FinalTraitArray = [];
+    for(i=0;i<=num;i++){
+    FinalTraitArray.push(Descriptor[Math.floor(Math.random()*Descriptor.length] + " " + SecondaryTraitArray[Math.floor(Math.random()*SecondaryTraitArray.length) + " " + BaseTraitArray[Math.floor(Math.random()*BaseTraitArray.length]]);
+    }
+    return FinalTraitArray
+    }
+    function iteration(value){
+    text += "<p>" + value + "</p>";
+    
 }
