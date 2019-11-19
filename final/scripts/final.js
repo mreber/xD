@@ -1,4 +1,4 @@
-const lowerBound = 100;
+const lowerBound = 800;
 const higherBound = 0;
 
 var p0;
@@ -10,10 +10,10 @@ var p5;
 var p6;
 var p7;
 
-const s = 40;
+const s = 80;
 
 function setup() {
-  let canvas = createCanvas(80, 80);
+  let canvas = createCanvas(200, 200);
   canvas.parent("#sketch");
   // square corner points
   p0 = createVector(-s, -s);
@@ -34,7 +34,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(0);
   
   noFill();
   
@@ -45,8 +45,8 @@ function draw() {
   push();
   translate(width/2, height/2);  
 
-    stroke(0);
-    strokeWeight(.3);
+    stroke(0, 255, 0);
+    strokeWeight(1.5);
     beginShape();
   
   
@@ -83,21 +83,21 @@ function draw() {
     endShape();
   
   
-//   stroke(255, 0, 255);
-//     strokeWeight(8);
+  stroke(255, 0, 255);
+    strokeWeight(8);
   
     
-//     point(p0.x, p0.y);
-//     point(s, -s);
-//     point(s, s);
-//     point(-s, s);
+  //   point(p0.x, p0.y);
+  //   point(s, -s);
+  //   point(s, s);
+  //   point(-s, s);
   
-//   stroke(255, 0, 0);
-//     point(p4.x, p4.y);
-//     point(p5.x, p5.y);
-//     point(p6.x, p6.y);
-//     point(p7.x, p7.y);
-//   pop();
+  // stroke(255, 0, 0);
+  //   point(p4.x, p4.y);
+  //   point(p5.x, p5.y);
+  //   point(p6.x, p6.y);
+  //   point(p7.x, p7.y);
+  pop();
 }
 
 
@@ -120,11 +120,11 @@ function myCoolFunction(num,attr){
     globalNames.push(nameChosen.value);
   }
   num = Math.floor((Math.random() * num) + 1);
-var BaseTraitArray = ["Acid","Lighting","Fire"];
+var BaseTraitArray = ["Love （´・｀ ）♡", "Love (✿ ♥‿♥)", "Love (♥ω♥*)", "Love (๑°꒵°๑)･*♡", "Love ♡´･ᴗ･`♡", "Love (´•ω•｀♥)", "Love (●⌒ｖ⌒●)", "Love (つω`●）", "Love (˶′◡‵˶)爻(♥ O ♥) ", "Love (つˆ⌣ˆ)つ⊂(・﹏・⊂)", "Love (✿˶◕‿◕˶人◕ᴗ◕✿)", "Love （＾▽＾（＾▽＾＊）", "Love (つ・▽・)つ⊂(・▽・⊂)",   "Cuteness (◕ᴗ◕✿)", "Cuteness (◕ܫ◕✿)", "Cuteness  (◕▿◕✿)", "Cuteness  (◕ ワ ◕✿)", "Cuteness  (◠‿◠✿)", "Cuteness  (◔◡◔✿)", "Cuteness ( ᵒ̴̶̷̥́ _ᵒ̴̶̷̣̥̀ )♡♡♡", "Cuteness  ( ⸝⸝•ᴗ•⸝⸝ )੭⁾⁾", "Cuteness (ღˇᴗˇ)｡o", "Cuteness  ( ˘͈ ᵕ ˘͈♡)", "Cuteness  (﹡֦ơ ﻌ ơ֦﹡)", "Cuteness (ᅌᴗᅌ* )", "Cuteness ( ´◕㉨◕）", "Cuteness  ≧◠◡◠≦", "Cuteness  (✿◕㉨◕)", "Cuteness  (◔ᴥ◔)", "Cuteness  ✿*,(*´◕ω◕`*)+✿.*", "Cuteness  (✿◠‿◠)", "Cuteness  (ㆁᴗㆁ✿)", "Cuteness (✿´ ꒳ ` )", "Cuteness かわいいっ♪((●>ω<)っ)))´、ゝ`)ぃゃん", "Cuteness ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ:✲:おはよぉ～♬♫♬", "Sadness ಥ‿ಥ", "Sadness (இдஇ; ) ", "Sadness ˚‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚ ", "Sadness (ू˃̣̣̣̣̣̣︿˂̣̣̣̣̣̣ ू)", "Sadness (╯︵╰,)", "Sadness o(╥﹏╥)", "Sadness (´；д；)", "Sadness ゜:(つд⊂):゜", "Sadness (ᗒᗩᗕ)", "Sadness ( ´･ω･)", "Sadness (◞ ‸ ◟ㆀ)", "Sadness (´。＿。｀) ", "Sadness ﾊｧ━(-д-；)━ｧ…", "Wrath p(●｀□´●)q", "Wrath p(╬ Ò ‸ Ó)q ", "Wrath p(′Д`ﾟq)))", "Wrath ┗(｀Дﾟ┗(｀ﾟДﾟ´)┛ﾟД´)┛", "Wrath (ｙﾟ 益ﾟ;)ｙ", "Wrath (@>皿<)", "Wrath （￣^￣）凸", "Magic (∩｀-´)⊃━✿✿✿✿✿✿", "Magic ༼つಠ益ಠ༽つ ─=≡ΣO))", "Magic (つ◕౪◕)つ━☆ﾟ.*･｡ﾟ", "Magic (☆_・)・‥…━━━★", "Magic (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧", "彡ﾟ◉ω◉ )つー☆*", "Magic ( °-°)シ ミ★ ミ☆", "Magic (∩^o^)⊃━☆ﾟ.*･｡ﾟ", ""];
 
 var SecondaryTraitArray = ["Coaster of"];
 
-var Descriptor = ["Cute", "Ugly", "Smelly", "Stinky", "Hard", "Brave", "Charitable", "Honest", "Curious", "Funny", "Courageous", "Luxurious", "Beautiful", "Elegant", "Psychic", "Cursed", "Fantastic", "Otherworldly", "Rusty", "Loyal", "Opulant"];
+var Descriptor = ["Cute", "Ugly", "Smelly", "Stinky", "Hard", "Brave", "Charitable", "Honest", "Curious", "Funny", "Courageous", "Luxurious", "Beautiful", "Elegant", "Psychic", "Cursed", "Fantastic", "Otherworldly", "Rusty", "Loyal", "Opulant", "Charismatic", "Hastey", "Smooth", "Rugged", "Speedy", "Cunning", "Aerodynamic", "Sharp", "Scabby", "Scratchy", "Warm", "Cold", "Exalted", "Noble", "Chaotic", "Damned", "Divine"];
 var FinalTraitArray = [];
 for(i=0;i<num;i++){
   
@@ -148,7 +148,7 @@ text += "<p>" +vals + " : "+ value + "</p>";
 function attributeArray(num){
   num = Math.floor((Math.random() * num) + 1);
   text = " [ ";
-  var attrArray = ["Wisdom", "strength", "deepthroat", "luck"];
+  var attrArray = ["Wisdom", "strength", "Horsepower", "Luck", "Agility", "Stamina", "Haste", "Compassion", "Empathy", "Intellect", "Health", "Defense", "Beauty", "Sex Appeal", "Charisma", "Prowess", "Freeze", "Radiation", "Nuclear Power", "Ice Power", "Fire Power", "Potency", "Sharpness", "Intuition", "Instinct", "Math Skills", "Memory", "Alchemy", "Sight", "Test Taking Skills", "Squishy", "Cursed", "Haunted", "Smelly", "Flexibility", "Nobility", "Chaos", "Unpredictability", "Hung", "Musc"];
   for(l=0;l<num;l++){
     text+=Math.floor((Math.random()*100)+1) + "% " + attrArray[Math.floor((Math.random()*attrArray.length))];
     if((l+1)!=num){

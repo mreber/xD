@@ -1,16 +1,75 @@
-#sketch{
-
-    width: 10px;
-    height: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
 }
 
 #names{
-    width: 10px;
-    height: 10px;
+    position: absolute;
+   top: 20.75%;
+   color: lime;
 }
 
 #results{
-    width: 10px;
-    height: 10px;
+    position: absolute;
+   top: 22.75%;
+   left: .25%;
+color: lime;
+}
+
+#button{
+    position: absolute;
+    top: 20.75%;
+    left: 15%;
+    color: lime;
+}
+
+.box1{
+   position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    top: 05%;
+  
+}
+#sketch{
+position: absolute;
+top: 0%;
+left: 0%;
+    
+}
+
+#info1{
+    color: lime;
+}
+
+#mce-EMAIL{
+    position: absolute;
+    color: lime;
+    top: 15%;
+    left: 41%;
 
 }
+
+#mc-embedded-subscribe{
+    position: absolute;
+    color: lime;
+    top: 15.05%;
+    left: 50%;
+}
+
+#coaster{
+    position: absolute;
+    color: lime;
+    font-size: 750%;
+    left: 12.5%;
+
+}
+#coaster1{
+    position: absolute;
+    top: 12.5%;
+left: 36.5%;
+    color: lime;
+    font-size: 100%;
+}
+
