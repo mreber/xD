@@ -41,35 +41,87 @@ left: 0%;
 
 #info1{
     color: lime;
+    
 }
 
 #mce-EMAIL{
     position: absolute;
     color: lime;
-    top: 15%;
-    left: 41%;
+    top: 24.75%;
+  
+    left: 19.5vw;
 
 }
 
 #mc-embedded-subscribe{
     position: absolute;
     color: lime;
-    top: 15.05%;
-    left: 50%;
+    top: 24.85%;
+    left: 27.5vw;
 }
 
 #coaster{
-    position: absolute;
+    position: fixed;
     color: lime;
-    font-size: 750%;
-    left: 12.5%;
+    /* font-size: 750%; */
+  left: 26.25%;
+    font-size: 70px;
+        /* perspective: 50em; */
+
+        text-shadow: -5px 0px #1f4416,
+                     -80px 5px transparent,
+                     -100px 10px transparent,
+                     -120px 15px transparent;
 
 }
 #coaster1{
-    position: absolute;
-    top: 12.5%;
-left: 36.5%;
+    position: relative;
+    top: 15.5%;
+left: 1.45%;
     color: lime;
     font-size: 100%;
+    text-shadow: -2px 0px #1f4416,
+    -80px 5px transparent,
+    -100px 10px transparent,
+    -120px 15px transparent;
 }
 
+#gif{
+
+    position: absolute;
+    top: 17vh;
+    left: 15vw;
+    width: 300px;
+    height: 300px;
+
+}
+
+#coaster2{
+   
+    position: relative;
+    /* top: 10.5%;
+left: 1%; */
+    color: rgb(255, 230, 0);
+    font-size: 100%;
+    text-shadow: -2px 0px #a15b00,
+    -80px 5px transparent,
+    -100px 10px transparent,
+    -120px 15px transparent;
+    
+
+}
+
+#container1{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+width: 50vw;
+height: 50vh;
+    background-color: rgb(0, 0, 0);
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid lime;
+}
