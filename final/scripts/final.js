@@ -10,10 +10,10 @@ var p5;
 var p6;
 var p7;
 
-const s = 80;
+const s = 100;
 
 function setup() {
-  let canvas = createCanvas(200, 200);
+  let canvas = createCanvas(300, 300);
   canvas.parent("#sketch");
   // square corner points
   p0 = createVector(-s, -s);
